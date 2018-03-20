@@ -5,6 +5,7 @@
 - Passo a passo:
     - Criar os arquivos HTML, CSS e JS.
     - Criar o arquivo de configuração.
+        - http://cordova.apache.org/docs/en/latest/config_ref/index.html
     - Criar um arquivo zipado.
     - Subir para o "https://build.phonegap.com/".
     - Baixar aplicação.

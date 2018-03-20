@@ -15,4 +15,12 @@
     <author href="http://www.edersonfernandes.com.br" email="contato@edersonfernandes.com.br">
         Éderson Fernandes
     </author>
+
+    <preference name="orientation" value="portrait" />
+
+    <preference name="fullscreen" value="true" />
+
+    <preference name="permissions" value="none" />
+
+    <platform name="android" />
 </widget>
