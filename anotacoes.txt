@@ -4,6 +4,7 @@
 - Usando o PhoneGap Build.
 - Passo a passo:
     - Criar os arquivos HTML, CSS e JS.
+    - Criar o arquivo de configuração.
     - Criar um arquivo zipado.
     - Subir para o "https://build.phonegap.com/".
     - Baixar aplicação.
