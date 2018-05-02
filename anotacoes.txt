@@ -9,3 +9,19 @@
     - Criar um arquivo zipado.
     - Subir para o "https://build.phonegap.com/".
     - Baixar aplicação.
+
+# garconapp
+- Preparando Cordova.
+    - Instalar o NodeJS.
+        node -v
+    _ Instalar o Cordova.
+        npm install -g cordova
+        cordova -v
+- Criando projeto.
+    cordova create garconapp br.com.edersonfernandes.garconapp "Garçone Só de Cenoura"
+- Acessar projeto e adicionar plataformas.
+    cd garconapp
+    cordova platform add browser
+    cordova platform add android
+- Rodar plataforma.
+    cordova run browser

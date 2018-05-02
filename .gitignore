@@ -1,0 +1,6 @@
+# NodeJS
+/garconapp/node_modules/
+
+# Cordova
+/garconapp/platforms/
+/garconapp/plugins/
