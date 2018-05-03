@@ -10,7 +10,10 @@
 
     <preference name="Orientation" value="portrait" />
     <preference name="Fullscreen" value="true" />
-    <preference name="BackgroundColor" value="0xF2F2F2FF" />
+
+    <platform name="android">
+        <preference name="BackgroundColor" value="0xF2F2F2FF" />
+    </platform>
 
     <platform name="ios">
         <preference name="DisallowOverscroll" value="true" />
