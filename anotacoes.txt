@@ -52,3 +52,9 @@
         ionic cordova resources
     6 - copiar o arquivo XML e a pasta RESOURCES para o projeto criado pelo cordova.
     - Lembrete: a pasta resources e o arquivo xml tem que estar na raiz do projeto.
+- Plugins no Cordova.
+    - Instalar o plugin para manipular a StatusBar.
+        cordova plugin add cordova-plugin-statusbar
+- Lendo codigo de barra na App.
+    - Instalação.
+        cordova plugin add phonegap-plugin-barcodescanner --save
