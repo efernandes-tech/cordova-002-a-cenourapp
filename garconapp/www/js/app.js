@@ -9,6 +9,9 @@ $('.collection-item').on('click', function() {
 
     $badge.text(parseInt($badge.text()) + 1);
 
+    var nomeProduto = this.firstChild.textContent;
+    Materialize.toast(nomeProduto + ' adicionado', 1000);
+
 });
 
 $('#confirmar').on('click', function() {
