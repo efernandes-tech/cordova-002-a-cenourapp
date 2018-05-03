@@ -58,3 +58,8 @@
 - Lendo codigo de barra na App.
     - Instalação.
         cordova plugin add phonegap-plugin-barcodescanner --save
+- Ajax na App.
+    - API.
+        http://cozinhapp.sergiolopes.org/
+    - Teste da API.
+        http://cozinhapp.sergiolopes.org/novo-pedido?mesa=17&pedido=Bolo+de+cenoura
