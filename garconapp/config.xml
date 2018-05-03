@@ -28,8 +28,17 @@
         <preference name="DisallowOverscroll" value="true" />
     </platform>
     <content src="index.html" />
-    <engine name="android" spec="~7.0.0" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="SplashScreenDelay" value="3000" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
+    <platform name="android">
+        <preference name="StatusBarBackgroundColor" value="#E86C13" />
+    </platform>
+    <platform name="ios">
+        <preference name="StatusBarOverlayWebView" value="false" />
+        <preference name="StatusBarBackgroundColor" value="#F57F17" />
+    </platform>
+    <engine name="browser" spec="^5.0.3" />
+    <engine name="android" spec="^7.0.0" />
 </widget>
