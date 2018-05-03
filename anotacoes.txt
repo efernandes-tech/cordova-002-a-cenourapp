@@ -63,3 +63,6 @@
         http://cozinhapp.sergiolopes.org/
     - Teste da API.
         http://cozinhapp.sergiolopes.org/novo-pedido?mesa=17&pedido=Bolo+de+cenoura
+- Acesso no dispositivo real.
+    - Instalação de plugin para liberar o CORS.
+        cordova plugin add cordova-plugin-whitelist --save
