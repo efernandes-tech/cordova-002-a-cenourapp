@@ -1,28 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="br.com.edersonfernandes.garconapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Garçone Só de Cenoura</name>
+    <name>Garçonete Só de Cenoura</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        App para uso das garçonetes dentro do restaurante.
     </description>
     <author email="edersonluis.rf@gmail.com" href="http://www.edersonfernandes.com.br">
         Éderson Fernandes
     </author>
-    <content src="index.html" />
-    <plugin name="cordova-plugin-whitelist" spec="1" />
-    <access origin="*" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
-    <platform name="android">
-        <allow-intent href="market:*" />
-    </platform>
+
+    <preference name="Orientation" value="portrait" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="BackgroundColor" value="0xF2F2F2FF" />
+
     <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
+        <preference name="DisallowOverscroll" value="true" />
     </platform>
-    <engine name="browser" spec="^5.0.3" />
-    <engine name="android" spec="^7.0.0" />
 </widget>
