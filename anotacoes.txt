@@ -66,3 +66,6 @@
 - Acesso no dispositivo real.
     - Instalação de plugin para liberar o CORS.
         cordova plugin add cordova-plugin-whitelist --save
+- Vibração.
+    - Instalação.
+        cordova plugin add cordova-plugin-vibration --save

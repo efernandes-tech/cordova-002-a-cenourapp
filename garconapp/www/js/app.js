@@ -69,6 +69,9 @@ $('.acao-finalizar').click(function(){
 
             $('#numero-mesa').val('');
             $('.badge').remove();
+
+            // Vibrate for 3 seconds
+            navigator.vibrate(3000);
         },
         error: function(erro) {
             Materialize.toast(erro.responseText, 3000, `red-text`);
