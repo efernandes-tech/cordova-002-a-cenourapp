@@ -38,3 +38,17 @@
     cordova platform add android
 - Rodar no dispositivo virtual do Genymotion.
     cordova run android --device
+- Icones e Splashscreen.
+    1 - instalar o ionic como global:
+        npm -g install ionic
+    2 - criar um projeto do ionic:
+        ionic start garconapp
+        cd garconapp
+    3 - copiar o arquivo de CONFIG.xml e a pasta RESOURCES do projeto Antigo para dentro do projeto criado pelo IONIC
+    4 - adicionar as plataformas dentro da pasta do projeto criado pelo ionic, executar os seguintes comandos:
+        ionic cordova platform add android
+        ionic cordova platform add ios (pra quem tiver xcode)
+    5 - agora o novo projeto criado pelo ionic tem  o config.xml e a pasta resources, só execuar o comando:
+        ionic cordova resources
+    6 - copiar o arquivo XML e a pasta RESOURCES para o projeto criado pelo cordova.
+    - Lembrete: a pasta resources e o arquivo xml tem que estar na raiz do projeto.
